@@ -1,3 +1,5 @@
+/* ------------------General------------------- */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,6 +14,14 @@ body {
     center;
   background-size: cover;
 }
+p {
+  font-size: 18px;
+}
+h3 {
+  font-size: 22px;
+}
+
+/* <------------------------ Logo ------------------------>*/
 .logo {
   width: fit-content;
   margin-top: 15px;
@@ -22,6 +32,7 @@ body {
   width: 300px;
   height: auto;
 }
+/* <------------------------ Button ------------------------>*/
 
 .icon-back-container {
   position: absolute;
@@ -42,8 +53,14 @@ body {
   width: 50px;
   height: 50px;
 }
-p {
-  font-size: 18px;
+
+/* <------------------------ Content ------------------------>*/
+.Content {
+  width: 900px;
+  position: relative;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .name {
   position: absolute;
@@ -54,9 +71,9 @@ p {
   font-weight: 700;
   z-index: 1;
 }
+
 .container {
   background: #fff url(/Pictures/Background\ color\ 2.png);
-  max-width: 900px;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -73,6 +90,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin-right: 15px;
 }
 .weakness-container {
   display: inline-block;
@@ -94,10 +112,4 @@ p {
   border-radius: 5px;
   color: #fff;
   width: 100px;
-}
-.Content {
-  max-width: 900px;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
 }
