@@ -14,6 +14,28 @@ a {
   text-decoration: none;
   color: black;
 }
+.search {
+  margin-top: 10px;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search input {
+  border-radius: 2px;
+  border: none;
+  height: 25px;
+}
+.search button {
+  border: 2px solid #fd7d24;
+  background-color: #fd7d24;
+  cursor: pointer;
+  border-radius: 2px;
+  height: 25px;
+  margin-left: 10px;
+}
+.search i {
+  color: #fff;
+}
 .logo {
   width: fit-content;
   margin-top: 15px;
@@ -37,7 +59,7 @@ a {
   gap: 20px;
   padding: 40px;
   padding-bottom: 120px;
-  margin-top: 30px;
+  margin-top: 20px;
   position: relative;
 }
 .sub-container {
